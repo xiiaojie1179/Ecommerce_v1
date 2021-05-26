@@ -2,9 +2,9 @@
 
 Class Database{
  
-	private $server = "mysql:host=sql6.freemysqlhosting.net;dbname=sql6414826";
-	private $username = "sql6414826";
-	private $password = "8sql6414826";
+	private $server = "mysql:host=remotemysql.com:3306;dbname=6uOYCFG31";
+	private $username = "6uOYCFG31";
+	private $password = "Dl3O07j5QX";
 	private $options  = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,);
 	protected $conn;
  	
